@@ -15,7 +15,4 @@ export default defineConfig({
   commonjsOptions: {
     esmExternals: true,
   },
-  // build: {
-  //   outDir: "public",
-  // },
 });
