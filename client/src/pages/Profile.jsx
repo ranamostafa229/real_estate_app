@@ -132,7 +132,7 @@ const Profile = () => {
             <img
               src={formData.avatar || currentUser.avatar}
               alt="profile"
-              className="rounded-full h-20 w-20 self-center"
+              className="rounded-full h-20 w-20 self-center cursor-pointer"
               onClick={() => fileRef.current.click()}
             />
           ) : (
