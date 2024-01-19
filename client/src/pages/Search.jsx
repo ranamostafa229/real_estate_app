@@ -184,6 +184,7 @@ const Search = () => {
               </span>
             </span>
             <button
+              type="button"
               className="flex  xl:hidden w-20 h-10 items-center justify-center hover:text-[#FF385C]
                rounded-full shadow-lg bg-white self-end gap-2 text-[#726C73] font-semibold group "
               onClick={() => setShowFilter((prev) => !prev)}
