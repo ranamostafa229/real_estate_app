@@ -20,6 +20,7 @@ This is a MERN stack web application that allows users to upload and search for 
   &emsp;&emsp;
   <img src="https://th.bing.com/th/id/R.6e54c791dc8bd9e8ec9cc09a3cb9e30f?rik=WZ6GV2j%2bNRuA8A&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Firbase" width="100" height="100" />
 </p>
+
 - <b>MongoDB:</b> A document-based database that stores the data of the application.
 
 - <b>Express:</b> A web framework that handles the server-side logic and routing of the application.
