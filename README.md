@@ -12,7 +12,7 @@ This is a MERN stack web application that allows users to upload and search for 
 
 ## Technologies
 <p align="left">
-  &emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="100" height="100"/>&emsp;&emsp;
+  &emsp;<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_wordmark_logo_icon_146423.png" alt="MongoDB" width="100" height="100"/>&emsp;&emsp;
   <img src="https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755" alt="Express" width="100" height="100"/>&emsp;&emsp;
   <img src="https://cdn.freebiesupply.com/logos/large/2x/react-logo-png-transparent.png" alt="React" width="100" height="100" />&emsp;
   <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" alt="Node" width="100" height="100" />&emsp;&emsp;
