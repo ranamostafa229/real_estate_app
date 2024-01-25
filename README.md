@@ -12,13 +12,13 @@ This is a MERN stack web application that allows users to upload and search for 
 
 ## Technologies
 <p align="left">
-  &emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="80" height="80" style="margin: "10px""/>&emsp;
-  <img src="https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755" alt="Express" width="80" height="80" style="margin: 10"/>&emsp;
-  <img src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0" alt="React" width="80" height="80" style="margin: 10"/>&emsp;
-  <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" alt="Node" width="80" height="80" style="margin:10"/>&emsp;
-  <img src="https://th.bing.com/th/id/OIP.AvpmhSP2e8GguzR4CUT5dQHaEy?rs=1&pid=ImgDetMain" alt="Tailwind" width="80" height="80" style="margin:10"/>
+  &emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="100" height="100"/>&emsp;
+  <img src="https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755" alt="Express" width="100" height="100"/>&emsp;
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/react-logo-png-transparent.png" alt="React" width="100" height="100" />&emsp;
+  <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" alt="Node" width="100" height="100" />&emsp;
+  <img src="https://th.bing.com/th/id/OIP.AvpmhSP2e8GguzR4CUT5dQHaEy?rs=1&pid=ImgDetMain" alt="Tailwind" width="100" height="100" />
   &emsp;
-  <img src="https://th.bing.com/th/id/OIP.OWr_S5067mZ-2j-o31cqVwHaHa?rs=1&pid=ImgDetMain" alt="Firbase" width="80" height="80" style="margin:10"/>
+  <img src="https://th.bing.com/th/id/OIP.OWr_S5067mZ-2j-o31cqVwHaHa?rs=1&pid=ImgDetMain" alt="Firbase" width="100" height="100" />
 </p>
 - ! [MongoDB logo] (https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg) MongoDB: A document-based database that stores the data of the application
 - ! [Express logo] (![image](https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755)) Express: A web framework that handles the server-side logic and routing of the application
