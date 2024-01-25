@@ -11,7 +11,7 @@ This is a MERN stack web application that allows users to upload and search for 
 - Users can contact the owners of the properties they are interested in
 
 ## Technologies
-<p align="left" >
+<p align="left" style="justify-content:space-between">
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="40" height="40" style="margin: "10px""/>
   <img src="https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755" alt="Express" width="40" height="40" style="margin: 10"/>
   <img src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0" alt="React" width="40" height="40" style="margin: 10"/>
