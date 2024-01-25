@@ -2,7 +2,10 @@
 # Real Estate App Using MERN (jwt, redux toolkit)
 
 This is a MERN stack web application that allows users to upload and search for real estate properties.
-![image](https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755)
+
+![Screenshot (1336)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/fa50ee49-98f3-46be-bdea-c197bf49bfb0)
+
+![Screenshot (1337)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/2fe213ba-a6c7-4fd6-9d1d-b316d06f3910)
 ## Features
 
 - Users can create an account and log in with their credentials
