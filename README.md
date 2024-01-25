@@ -12,12 +12,12 @@ This is a MERN stack web application that allows users to upload and search for 
 
 ## Technologies
 <p align="left">
-  &emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="100" height="100"/>&emsp;
-  <img src="https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755" alt="Express" width="100" height="100"/>&emsp;
+  &emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="100" height="100"/>&emsp;&emsp;
+  <img src="https://github.com/ranamostafa229/real_estate_app/assets/57458722/d4c9c487-8c30-440a-9b40-566d23ed4755" alt="Express" width="100" height="100"/>&emsp;&emsp;
   <img src="https://cdn.freebiesupply.com/logos/large/2x/react-logo-png-transparent.png" alt="React" width="100" height="100" />&emsp;
-  <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" alt="Node" width="100" height="100" />&emsp;
-  <img src="https://th.bing.com/th/id/OIP.XCm94ZiyrutjsQaikqwPnAHaEy?rs=1&pid=ImgDetMain" alt="Tailwind" width="100" height="100" />
-  &emsp;
+  <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" alt="Node" width="100" height="100" />&emsp;&emsp;
+  <img src="https://www.sotatek.com/wp-content/uploads/2021/04/Tailwinds-CSS-768x769.png" alt="Tailwind" width="100" height="100" />
+  &emsp;&emsp;
   <img src="https://th.bing.com/th/id/OIP.OWr_S5067mZ-2j-o31cqVwHaHa?rs=1&pid=ImgDetMain" alt="Firbase" width="100" height="100" />
 </p>
 - ! [MongoDB logo] (https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg) MongoDB: A document-based database that stores the data of the application
