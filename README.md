@@ -54,10 +54,13 @@ To run this project locally, you need to have Node.js, MongoDB, and npm installe
 1. Clone this repository to your local machine
 2. Navigate to the project folder and run `npm install` to install the dependencies
 3. Create a `.env` file in the root folder and add the following variables:
-MONGO_URL = "your_databse_address"
-JWT_SECRET = "your_secret_key"
-4. Run `npm run dev` to start the development server
+   
+   MONGO_URL = "your_databse_address"
+   
+   JWT_SECRET = "your_secret_key"
+5. Run `npm run dev` to start the development server
 
-## Live preview:
+## Live preview
+
 
 <a href="real-estate-app-vht5.onrender.com">real-estate-app-vht5.onrender.com</a> 
