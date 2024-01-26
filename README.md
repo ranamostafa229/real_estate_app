@@ -57,3 +57,7 @@ To run this project locally, you need to have Node.js, MongoDB, and npm installe
 MONGO_URL = "your_databse_address"
 JWT_SECRET = "your_secret_key"
 4. Run `npm run dev` to start the development server
+
+## Live preview:
+
+real-estate-app-vht5.onrender.com/
