@@ -18,7 +18,7 @@ This is a MERN stack web application that allows users to upload and search for 
   
 - Users can contact the owners of the properties they are interested in
 
- ![65b3103dfac81f78ca1d03fc](https://github.com/ranamostafa229/real_estate_app/assets/57458722/d40ea0a2-dd64-41cd-93d7-c1d46279dd69)
+ ![65b3103dfac81f78ca1d03fc](https://github.com/ranamostafa229/real_estate_app/assets/57458722/b802eb6a-f370-4cf3-a940-d6324ea6de58)
 
 
 ## Technologies
