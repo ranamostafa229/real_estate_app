@@ -14,9 +14,12 @@ This is a MERN stack web application that allows users to upload and search for 
 - Users can add, edit, and delete their own properties
 - Users can view and filter properties by location, price, size, and other criteria
   
-![Screenshot (1337)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/2fe213ba-a6c7-4fd6-9d1d-b316d06f3910)
+ ![Screenshot (1337)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/2fe213ba-a6c7-4fd6-9d1d-b316d06f3910)
   
 - Users can contact the owners of the properties they are interested in
+
+ ![65b3103dfac81f78ca1d03fc](https://github.com/ranamostafa229/real_estate_app/assets/57458722/d40ea0a2-dd64-41cd-93d7-c1d46279dd69)
+
 
 ## Technologies
 <p align="left">
