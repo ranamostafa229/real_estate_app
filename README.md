@@ -1,7 +1,7 @@
 
 # Real Estate App Using MERN (jwt, redux toolkit)
 
-This is a MERN stack web application that allows users to upload and search for real estate properties.
+#### This is a MERN stack web application that allows users to upload and search for real estate properties.
 
 ![Screenshot (1336)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/fa50ee49-98f3-46be-bdea-c197bf49bfb0)
 
@@ -11,19 +11,19 @@ This is a MERN stack web application that allows users to upload and search for 
 
 ## Features
 
-- Users can create an account and log in with their credentials
+#### - Users can create an account and log in with their credentials
 
 ![Screenshot (1338)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/013567fc-dca6-45b4-adfd-47b480717938)
 
-- Users can add, edit, and delete their own properties in user panel section
+#### - Users can add, edit, and delete their own properties in user panel section
 
 ![Screenshot (1340)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/3bee2afe-3209-4b64-a74c-743462e6b8c2) 
 
-- Users can view and filter properties by location, price, size, and other criteria
+#### - Users can view and filter properties by location, price, size, and other criteria
   
  ![Screenshot (1337)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/2fe213ba-a6c7-4fd6-9d1d-b316d06f3910)
   
-- Users can contact the owners of the properties they are interested in
+#### - Users can contact the owners of the properties they are interested in
 
  ![65b3103dfac81f78ca1d03fc](https://github.com/ranamostafa229/real_estate_app/assets/57458722/b802eb6a-f370-4cf3-a940-d6324ea6de58)
 
