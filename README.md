@@ -64,6 +64,7 @@ To run this project locally, you need to have Node.js, MongoDB, and npm installe
    JWT_SECRET = "your_secret_key"
 5. Run `npm run dev` to start the development server
 
-## Live preview
+## Demo
+- You can view a live demo of the app here: 
 
-<a href="real-estate-app-vht5.onrender.com">real-estate-app-vht5.onrender.com</a> 
+  <a href="real-estate-app-vht5.onrender.com">real-estate-app-vht5.onrender.com</a> 
