@@ -59,9 +59,10 @@ To run this project locally, you need to have Node.js, MongoDB, and npm installe
 2. Navigate to the project folder and run `npm install` to install the dependencies
 3. Create a `.env` file in the root folder and add the following variables:
    
+   ```
    MONGO_URI=your_mongodb_connection_string
-   
    JWT_SECRET = your_jwt_secret
+   ```
 5. Run `npm run dev` to start the development server
 
 ## Demo
