@@ -5,6 +5,10 @@ This is a MERN stack web application that allows users to upload and search for 
 
 ![Screenshot (1336)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/fa50ee49-98f3-46be-bdea-c197bf49bfb0)
 
+## Responsive Screen Sizes For Mobile Devices
+
+![Screenshot (1341)](https://github.com/ranamostafa229/real_estate_app/assets/57458722/ca0d5c5b-284a-4fd7-bb66-d0484dd52199)
+
 ## Features
 
 - Users can create an account and log in with their credentials
