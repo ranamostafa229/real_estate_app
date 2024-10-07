@@ -40,31 +40,7 @@ const App = () => {
       </Route>
     )
   );
-  return (
-    <RouterProvider router={router} />
-    // <BrowserRouter>
-    //   <Navbar />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/signin" element={<SignIn />} />
-    //     <Route path="/signup" element={<SignUp />} />
-    //     <Route path="/search" element={<Search />} />
-    //     <Route path="/property/:id" element={<Property />} />
-    //     <Route element={<PrivateRoute />}>
-    //       <Route path="/user-panel" element={<UserPanel />}>
-    //         <Route element={<Profile />} index />
-    //         <Route path="/user-panel/add-property" element={<AddProperty />} />
-    //         <Route path="/user-panel/my-property" element={<Properties />} />
-    //         <Route
-    //           path="/user-panel/edit-property/:id"
-    //           element={<EditProperty />}
-    //         />
-    //       </Route>
-    //     </Route>
-    //   </Routes>
-    //   <ScrollRestoration />
-    // </BrowserRouter>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
