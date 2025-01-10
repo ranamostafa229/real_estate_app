@@ -6,13 +6,13 @@ import {
   signUpStart,
   signUpSuccess,
 } from "../redux/user/userSlice";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const SignUp = ({ setIsNewAccount }) => {
   const [formData, setFormData] = useState({});
   // eslint-disable-next-line no-unused-vars
-
+  const location = useLocation();
   const { loading, error } = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -42,10 +42,10 @@ const SignUp = ({ setIsNewAccount }) => {
       }
 
       dispatch(signUpSuccess(data));
+      navigate(location?.state?.from);
       setIsNewAccount(false);
       console.log(data);
     } catch (error) {
-      // console.log(error.message);
       dispatch(signUpFailure("Something went wrong, Please try again ."));
     }
   };
@@ -123,9 +123,9 @@ const SignUp = ({ setIsNewAccount }) => {
           <span
             className="cursor-pointer"
             onClick={() => {
-              location.pathname !== "/" && navigate("/signin");
-
-              setIsNewAccount(false);
+              location.pathname !== "/" &&
+                navigate("/signin", { state: { from: location?.state?.from } });
+              setIsNewAccount && setIsNewAccount(false);
             }}
           >
             Login here

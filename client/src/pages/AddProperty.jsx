@@ -30,7 +30,6 @@ const AddProperty = () => {
     furnished: false,
     airConditioning: false,
   });
-  console.log(formData);
   const handleChange = (e) => {
     const { name, value, type, id, checked } = e.target;
     setFormData({

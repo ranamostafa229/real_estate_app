@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 const ContactOwner = ({ property }) => {
   const { currentUser } = useSelector((state) => state.user);
   const [owner, setOwner] = useState(null);
-  const [message, setMessage] = useState(null);
+  const [message, setMessage] = useState("");
   const fetchOwnerData = async () => {
     try {
       const res = await fetch(`/api/user/${property?.userRef}`);
@@ -22,8 +22,10 @@ const ContactOwner = ({ property }) => {
   };
 
   useEffect(() => {
-    fetchOwnerData();
-  }, [property.userRef]);
+    if (property?.userRef) {
+      fetchOwnerData();
+    }
+  }, [property?.userRef]);
   console.log(owner);
   return (
     <>

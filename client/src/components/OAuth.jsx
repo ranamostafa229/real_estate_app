@@ -31,9 +31,9 @@ const OAuth = ({ setIsOpen }) => {
       const data = await res.json();
       console.log(data);
       dispatch(signInSuccess(data));
-      navigate(location.state?.from);
+      navigate(location?.state?.from);
 
-      setIsOpen(false);
+      setIsOpen && setIsOpen(false);
     } catch (error) {
       console.log(error);
     }

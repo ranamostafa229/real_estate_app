@@ -15,6 +15,7 @@ const SignIn = ({ setIsOpen, setIsNewAccount }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const location = useLocation();
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -38,8 +39,7 @@ const SignIn = ({ setIsOpen, setIsNewAccount }) => {
         return;
       }
       dispatch(signInSuccess(data));
-      navigate(-1);
-
+      navigate(location?.state?.from);
       setIsOpen(false);
     } catch (error) {
       console.log(error.message);
@@ -101,8 +101,9 @@ const SignIn = ({ setIsOpen, setIsNewAccount }) => {
           <span
             className="cursor-pointer"
             onClick={() => {
-              location.pathname !== "/" && navigate("/signup");
-              setIsNewAccount(true);
+              location.pathname !== "/" &&
+                navigate("/signup", { state: { from: location?.state?.from } });
+              setIsNewAccount && setIsNewAccount(true);
             }}
           >
             Register here
