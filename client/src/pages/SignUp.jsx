@@ -72,6 +72,7 @@ const SignUp = ({ setIsNewAccount }) => {
         focus:outline-[#00aeff] focus:shadow-sm focus:shadow-[#00aeff]
           text-[#8A8A8A]  "
             onChange={handleChange}
+            required
           />
           <input
             type="email"
@@ -81,6 +82,7 @@ const SignUp = ({ setIsNewAccount }) => {
         focus:outline-[#00aeff] focus:shadow-sm focus:shadow-[#00aeff]
           text-[#8A8A8A]  "
             onChange={handleChange}
+            required
           />
           <input
             type="password"
@@ -90,6 +92,7 @@ const SignUp = ({ setIsNewAccount }) => {
           focus:outline-[#00aeff] focus:shadow-sm focus:shadow-[#00aeff] focus:drop-shadow-md
        "
             onChange={handleChange}
+            required
           />
           <input
             type="password"
@@ -99,6 +102,7 @@ const SignUp = ({ setIsNewAccount }) => {
           focus:outline-[#00aeff] focus:shadow-sm focus:shadow-[#00aeff] focus:drop-shadow-md
        "
             onChange={handleChange}
+            required
           />
           <button
             disabled={loading}
