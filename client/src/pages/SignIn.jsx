@@ -38,7 +38,7 @@ const SignIn = ({ setIsOpen, setIsNewAccount }) => {
         return;
       }
       dispatch(signInSuccess(data));
-      navigate(location.state?.from);
+      navigate(-1);
 
       setIsOpen(false);
     } catch (error) {
