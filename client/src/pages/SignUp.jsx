@@ -11,7 +11,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 const SignUp = ({ setIsNewAccount }) => {
   const [formData, setFormData] = useState({});
-  // eslint-disable-next-line no-unused-vars
   const location = useLocation();
   const { loading, error } = useSelector((state) => state.user);
   const dispatch = useDispatch();

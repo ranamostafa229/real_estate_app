@@ -64,9 +64,3 @@ export const getUser = async (req, res, next) => {
     next(error);
   }
 };
-// else {
-//   return next(errorHandler(401, "You can only view your own listings!"));
-// }
-// 655fcadf7ac370f89c4db054
-// 655fcadf7ac370f89c4db054
-// };
