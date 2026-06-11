@@ -6,6 +6,7 @@ export const createListing = async (req, res, next) => {
     const listing = await Listing.create(req.body);
     return res.status(201).json(listing);
   } catch (error) {
+    console.log(error);
     next(error);
   }
 };
@@ -38,7 +39,7 @@ export const updateListing = async (req, res, next) => {
       req.body,
       {
         new: true,
-      }
+      },
     );
     res.status(200).json(updatedListing);
   } catch (error) {

@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser";
 import userRouter from "./routes/userRoute.js";
 import authRouter from "./routes/authRoute.js";
 import listingRoute from "./routes/listingRoute.js";
+import uploadRoute from "./routes/uploadRoute.js";
 import path from "path";
 
 dotenv.config();
@@ -30,6 +31,7 @@ app.listen(3000, () => {
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/listing", listingRoute);
+app.use("/api/upload", uploadRoute);
 
 app.use(express.static(path.join(__dirname, "/client/dist")));
 app.get("*", (req, res) => {

@@ -2,71 +2,41 @@
 import { useEffect, useRef, useState } from "react";
 import { FaCloudUploadAlt } from "react-icons/fa";
 import { RiDeleteBin2Fill } from "react-icons/ri";
-import { app } from "../firebase";
-import {
-  getDownloadURL,
-  getStorage,
-  ref,
-  uploadBytesResumable,
-} from "firebase/storage";
 
 const MediaSection = ({ setFormData, formData, imageUrls }) => {
   const [files, setFiles] = useState([]);
-  const uploadRef = useRef(files);
+  const uploadRef = useRef(null);
   const [imageUploadError, setImageUploadError] = useState(false);
   const [uploading, setUploading] = useState(false);
-
-  const storeImage = (file) => {
-    return new Promise((resolve, reject) => {
-      const storage = getStorage(app);
-      const fileName = new Date().getTime() + file.name;
-      const storageRef = ref(storage, fileName);
-      const uploadTask = uploadBytesResumable(storageRef, file);
-      uploadTask.on(
-        "state_changed",
-        (snapshot) => {
-          const progress =
-            (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-          console.log(`Upload is ${progress}% done`);
-          // setFilePerc(progress);
-        },
-        (error) => {
-          reject(error);
-        },
-        () => {
-          getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-            resolve(downloadURL);
-          });
-        }
-      );
-    });
-  };
-
-  const handleImageSubmit = () => {
+  const handleImageSubmit = async () => {
     setImageUploadError(false);
     if (files.length >= 0 && files.length < 6 && imageUrls.length < 6) {
-      setImageUploadError(false);
-
       setUploading(true);
-      const promises = [];
-      for (let i = 0; i < files.length; i++) {
-        promises.push(storeImage(files[i]));
-      }
+      try {
+        const formDataToSend = new FormData();
+        for (let i = 0; i < files.length; i++) {
+          formDataToSend.append("images", files[i]);
+        }
 
-      Promise.all(promises)
-        .then((urls) => {
+        const res = await fetch("/api/upload", {
+          method: "POST",
+          body: formDataToSend,
+        });
+        const data = await res.json();
+        if (data.success === false) {
+          setImageUploadError(data.message || "Upload failed");
+        } else {
           setFormData({
             ...formData,
-            imageUrls: formData.imageUrls.concat(urls),
+            imageUrls: formData.imageUrls.concat(data.urls),
           });
-          setImageUploadError(false);
-          setUploading(false);
-        })
-        .catch((err) => {
-          console.log(err);
-          setImageUploadError("Image upload failed (2 mb max per image)");
-          setUploading(false);
-        });
+        }
+      } catch (err) {
+        console.error(err);
+        setImageUploadError("Image upload failed (2 mb max per image)");
+      } finally {
+        setUploading(false);
+      }
     } else {
       setImageUploadError("You can only upload 6 images per listing");
       setUploading(false);
@@ -80,8 +50,9 @@ const MediaSection = ({ setFormData, formData, imageUrls }) => {
   };
 
   useEffect(() => {
-    handleImageSubmit();
-  }, [files, uploadRef]);
+    if (files && files.length > 0) handleImageSubmit();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [files]);
   return (
     <>
       <div className="flex  outline-dashed outline-[#1ABC9C] justify-center items-center my-3">
